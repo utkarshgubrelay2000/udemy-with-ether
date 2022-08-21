@@ -11,10 +11,6 @@ import UserDashboard from "../components/UserDashboard";
 import data from "../data/index.json";
 import partnersData from "../data/partners.json";
 import dataListing from "../data/user-add.json";
-import dataCoursePacks from "../data/course-packs.json";
-import lastMinute from "../data/lastminute.json";
-import geoJSON from "../data/rooms-geojson.json";
-import { useSelector } from "react-redux";
 import LandingPageOnboarding from "../components/LandingPageOnboarding";
 import { Cookies } from "react-cookie";
 import { useRouter } from "next/router";
@@ -27,7 +23,8 @@ import AnalyticsService from "../services/AnalyticsService";
 import API_URL from "../utils/API_URL";
 import axios from "axios";
 import Axios from "axios";
-
+import { web3Helper } from "../services/webHelper";
+import Migration from "../contracts/Migrations.json";
 export async function getStaticProps() {
   return {
     props: {
@@ -55,7 +52,7 @@ export default () => {
   const router = useRouter();
   const [Data, setData] = useState([]);
   const [Category, setCateogry] = useState([]);
-
+const [dataCoursePacks,setdataCoursePacks] = useState([]);
   // useEffect(() => {
   //   // console.log(JSON.parse(localStorage.getItem("userInfo")));
   //   if (JSON.parse(localStorage.getItem("userInfo")) !== null) {
@@ -90,12 +87,24 @@ export default () => {
   //     setOnboarding(false);
   //   }
   // }, [router]);
-
+const [provider, setProvider] = useState({});
+const [web3, setWeb3] = useState({});
 
   useEffect(()=>{
-
-    // console.log(window.providers)
+     getEth()
   },[0])
+  const getEth = async () => {
+   try {
+     let {web3,provider} = await web3Helper()
+     setWeb3(web3);
+     setProvider(provider);
+     let accounts = await web3.eth.getAccounts();
+     console.log(accounts);
+    } catch (error) {
+     console.log(error);
+    }
+   
+  }
   const renderLandingPageOnboarding = () => {
     if (isAuthenticated) {
       return <div></div>;
@@ -403,7 +412,7 @@ export default () => {
           Course Packs
         </h2>
       }
-      {dataCoursePacks.map((data, index) => (
+      {dataCoursePacks?.map((data, index) => (
         <>
           <Container>
             <Row className="mb-3">
