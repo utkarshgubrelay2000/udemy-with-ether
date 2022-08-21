@@ -1,0 +1,32 @@
+{
+  version: "1.0.0.6",
+  name: "Firework",
+  description: "Firework is an unexpected journey through short-form video",
+  subtitle: "Short-form videos for pro’s",
+  launch_path: "/index.html",
+  display: "Firework",
+  type: "web",
+  origin: "https://kaios-app.fireworktv.com/manifest.webapp",
+  icons: {
+  56: "https://kaios-app.fireworktv.com/icons/icon56.png",
+  84: "https://kaios-app.fireworktv.com/icons/icon84.png",
+  112: "https://kaios-app.fireworktv.com/icons/icon112.png"
+  },
+  categories: [
+    "entertainment"
+  ],
+  theme: "#51b7c1",
+  orientation: "default",
+  developer: {
+    name: "Loop Now Technologies, Inc",
+    url: "https://fw.tv/"
+  },
+  default_locale: "en-US",
+  locales: {
+    en-US: {
+    name: "Firework",
+    description: "Firework is an unexpected journey through short-form video",
+    subtitle: "Short-form videos for pro’s"
+    }
+  }
+}

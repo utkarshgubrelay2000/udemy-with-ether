@@ -1,0 +1,35 @@
+{
+  "partners": {
+    "title": "Our Partners",
+    "partners": [
+      {
+          "title": "Brand 1",
+          "img": "img/brand/edx.png"
+      },
+      {
+          "title": "Brand 2",
+          "img": "img/brand/appjobs.png"
+      },
+      {
+          "title": "Brand 3",
+          "img": "img/brand/impact-usa-group.png"
+      },
+      {
+          "title": "Brand 4",
+          "img": "img/brand/skillshare.png"
+      },
+      {
+        "title": "Brand 5",
+        "img": "img/brand/treehouse.png"
+      },
+      {
+        "title": "Brand 6",
+        "img": "img/brand/datacamp.png"
+    },
+    {
+      "title": "Brand 7",
+      "img": "img/brand/mindvalley.png"
+    }
+    ]
+  }
+}

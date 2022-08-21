@@ -1,0 +1,142 @@
+[
+    {
+        "popular": {
+            "title": "Learn With MindValley Master Courses",
+            "content": "Transform yourself with some of the worlds best programs from Mindvalley.",
+            "button": "View all MindValley programs",
+            "buttonLink":"catalog/?provider=mindvalley",
+            "places": [
+                {
+                    "id": 822,
+                    "title": "The Power of Boldness",
+                    "subTitle": "The Power Of Boldness Is A Journey Towards Expanding Your Mindset & Setting Your Very Own Moonshot: An Idea So Groundbreaking, It Could Transform Your Career, Your Industry, And Even The Planet.",
+                    "img": "https://img.youtube.com/vi/6OvCgNOlnTc/maxresdefault.jpg",
+                    "link": "the-power-of-boldness-mindvalley-822/",
+                    "prv": "mindvalley"
+                },
+                {
+                    "id": 814,
+                    "title": "The Silva Ultramind System",
+                    "subTitle": "Access altered states of mind to transform your reality",
+                    "img": "https://img.youtube.com/vi/3FtWY-yxTM8/maxresdefault.jpg",
+                    "link": "the-silva-ultramind-system-mindvalley-814/",
+                    "prv": "mindvalley"
+                },
+                {
+                    "id": 816,
+                    "title": "Live By Your Own Rules",
+                    "subTitle": "Stop Living for Everyone Else So You Can Shape a Genuine, Extraordinary, & Conscious Life By Your Own Rules.",
+                    "img": "https://img.youtube.com/vi/api4RXMxrDQ/maxresdefault.jpg",
+                    "link": "live-by-your-own-rules-mindvalley-816/",
+                    "prv": "mindvalley"
+                },
+                {
+                    "id": 820,
+                    "title": "Super Reading",
+                    "subTitle": "Follow Hollywood Brain Coach Jim Kwik’s Proven Approach in His Super Reading Quest to Instantly Absorb Anything You Learn, Read 2x Faster and Get An Edge in Every Area of Life",
+                    "img": "https://img.youtube.com/vi/IagIbAhC1bc/maxresdefault.jpg",
+                    "link": "super-reading-mindvalley-820/",
+                    "prv": "mindvalley"
+                },
+                {
+                    "id": 838,
+                    "title": "Money EQ Program",
+                    "subTitle": "Transform Your Relationship With Money, And Open The Floodgates To A Life Of Free-Flowing Wealth & Prosperity",
+                    "img": "https://img.youtube.com/vi/PgEXjATiPKQ/maxresdefault.jpg",
+                    "link": "money--eq-program-mindvalley-838/",
+                    "prv": "mindvalley"
+                },
+                {
+                    "id": 836,
+                    "title": "Speak And Inspirre",
+                    "subTitle": "How to Become a World-Class Speaker, Inspire & Influence People, and Make Your Message Go Viral",
+                    "img": "https://img.youtube.com/vi/RpVK28i1biM/maxresdefault.jpg",
+                    "link": "speak-and-inspire-mindvalley-836/",
+                    "prv": "mindvalley"
+                },
+                {
+                    "id": 826,
+                    "title": "10x Fitness",
+                    "subTitle": "Gain Your Dream Body In Just Two 15-Minute Weekly Workouts By Harnessing The Latest Science In Muscle Stimulation",
+                    "img": "https://img.youtube.com/vi/ZNwdE_6zPGU/maxresdefault.jpg",
+                    "link": "10x-fitness-mindvalley-826/",
+                    "prv": "mindvalley"
+                },
+                {
+                    "id": 823,
+                    "title": "Ultimate Leadership",
+                    "subTitle": "Join Keith Ferrazzi As He Equips You With The Essential Paradigm Shifts & Emerging Strategies Being Harnessed By Today’s Most Inspiring & Effective Leaders, In A World Where The Old Rules No Longer Apply.",
+                    "img": "https://img.youtube.com/vi/owXclLxSZoQ/maxresdefault.jpg",
+                    "link": "ultimate-leadership-mindvalley-823/",
+                    "prv": "mindvalley"
+                }
+            ]
+        }
+    },
+        {
+            "popular": {
+                "title": "Unlock your creative self with Skillshare",
+                "content": "Captivate your readers with these creative writing packs from skillshare.",
+                "button": "View all Skillshare programs",
+                "buttonLink":"catalog/?provider=skillshare",
+                "places": [
+                    {
+                        "id": 31370,
+                        "title": "Writing Masterclass: Words (Strategy 1 in the Writing Masterclass Series)",
+                        "subTitle": "This course is intended to be part of the series, Writing Masterclass: The Ultimate Guide to Writing Mastery. \"Writing Words\" is Strategy 1 of this series",
+                        "img": "https://static.skillshare.com/uploads/video/thumbnails/1c8e49953206de1f1dd75cf6a7f67b11/651-366",
+                        "link": "writing-masterclass-words-(strategy-1-in-the-writing-masterclass-series)-skillshare-31370/",
+                        "prv": "skillshare"
+                    },
+                    {
+                        "id": 31375,
+                        "title": "Writing Masterclass: Words (Strategy 2 in the Writing Masterclass Series)",
+                        "subTitle": "This course is intended to be part of the series, Writing Masterclass: The Ultimate Guide to Writing Mastery. \"Writing Sentences\" is Strategy 2 of this series",
+                        "img": "https://static.skillshare.com/uploads/video/thumbnails/1c8e49953206de1f1dd75cf6a7f67b11/651-366",
+                        "link": "writing-masterclass-sentences-(strategy-2-in-the-writing-masterclass-series)-skillshare-31375/",
+                        "prv": "skillshare"
+                    },
+                    {
+                        "id": 31382,
+                        "title": "Writing Masterclass: Words (Strategy 3 in the Writing Masterclass Series)",
+                        "subTitle": "This course is intended to be part of the series, Become a Writing Masterclass: The Ultimate Guide to Writing Mastery. \"Writing Structures\" is Strategy 3 of this series",
+                        "img": "https://static.skillshare.com/uploads/video/thumbnails/1c8e49953206de1f1dd75cf6a7f67b11/651-366",
+                        "link": "writing-masterclass-structures-(strategy-3-in-the-writing-masterclass-series)-skillshare-31382/",
+                        "prv": "skillshare"
+                    },
+                    {
+                        "id": 31381,
+                        "title": "Writing Masterclass: Words (Strategy 4 in the Writing Masterclass Series)",
+                        "subTitle": "This course is intended to be part of the series, Writing Masterclass: The Ultimate Guide to Writing Mastery. \"Writing Paragraphs\" is Strategy 4 of this series",
+                        "img": "https://static.skillshare.com/uploads/video/thumbnails/1c8e49953206de1f1dd75cf6a7f67b11/651-366",
+                        "link": "writing-masterclass-paragraphs-(strategy-4-in-the-writing-masterclass-series)-skillshare-31381/",
+                        "prv": "skillshare"
+                    },
+                    {
+                        "id": 31383,
+                        "title": "Writing Masterclass: Words (Strategy 5 in the Writing Masterclass Series)",
+                        "subTitle": "This course is intended to be part of the series, Writing Masterclass: The Ultimate Guide to Writing Mastery. \"Writing Purpose\" is Strategy 5 of this series",
+                        "img": "https://static.skillshare.com/uploads/video/thumbnails/1c8e49953206de1f1dd75cf6a7f67b11/651-366",
+                        "link": "writing-masterclass-purpose-(strategy-5-in-the-writing-masterclass-series)-skillshare-31383/",
+                        "prv": "skillshare"
+                    },
+                    {
+                        "id": 31384,
+                        "title": "Writing Masterclass: Words (Strategy 6 in the Writing Masterclass Series)",
+                        "subTitle": "This course is intended to be part of the series, Writing Masterclass: The Ultimate Guide to Writing Mastery. \"Writing Presentation\" is Strategy 6 of this series",
+                        "img": "https://static.skillshare.com/uploads/video/thumbnails/1c8e49953206de1f1dd75cf6a7f67b11/651-366",
+                        "link": "writing-masterclass-presentation-(strategy-6-in-the-writing-masterclass-series)-skillshare-31384/",
+                        "prv": "skillshare"
+                    },
+                    {
+                        "id": 31385,
+                        "title": "Writing Masterclass: Words (Strategy 7 in the Writing Masterclass Series)",
+                        "subTitle": "This course is intended to be part of the series, Writing Masterclass: The Ultimate Guide to Writing Mastery. \"Writing Attitudes\" is Strategy 7 of this series",
+                        "img": "https://static.skillshare.com/uploads/video/thumbnails/1c8e49953206de1f1dd75cf6a7f67b11/651-366",
+                        "link": "writing-masterclass-attitudes-(strategy-7-in-the-writing-masterclass-series)-skillshare-31385/",
+                        "prv": "skillshare"
+                    }
+                ]
+            }
+        }
+]

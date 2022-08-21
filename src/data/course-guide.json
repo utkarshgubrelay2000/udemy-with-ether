@@ -1,0 +1,277 @@
+[
+  {
+    "title": "So you're taking a course at school but you feel like you're not learning from it.",
+    "secondary-title": "Our Course-Guide can supplement your learning at school to fill any educational gap you may have.",
+    "subtitle": "Let's find an online course that can supplement your learning today.",
+    "button": "Begin",
+    "paragraph": "Do you want to ",
+    "paragraph-1": "strengthen your understanding ",
+    "paragraph-2": "of this discipline or ",
+    "paragraph-3": "learn something else? ",
+    "paragraph-4": "The choice is up to you!"
+  },
+  {
+    "title": "What subject are you learning?",
+    "paragraph": "From Data Science to Web Development to Business to Graphic Design... We've got you covered.",
+    "paragraph-2": "Compare course subjects from multiple course providers, all in one platform!",
+    "formBlocks": [
+      {
+        "title": "Basic",
+        "content": "Join the waitlist to be the first to get access to all our features. Join our community of learners and go-getters.",
+        "inputs": [
+          {
+            "label": "Subject",
+            "name": "type",
+            "type": "select",
+            "text": "Using this information, we can curate a set of courses for you to browse.",
+            "options": [
+              {
+                "label": "Any",
+                "value": ""
+              },
+              {
+                "label": "Data Science",
+                "value": "data science"
+              },
+              {
+                "label": "Web Development",
+                "value": "web development"
+              },
+              {
+                "label": "Engineering",
+                "value": "engineering"
+              },
+              {
+                "label": "Machine Learning",
+                "value": "machine learning"
+              },
+              {
+                "label": "Photography",
+                "value": "photography"
+              },
+              {
+                "label": "Data Analysis",
+                "value": "data analysis"
+              },
+              {
+                "label": "Accounting",
+                "value": "accounting"
+              },
+              {
+                "label": "Economics",
+                "value": "economics"
+              },
+              {
+                "label": "Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "Animation",
+                "value": "animation"
+              },
+              {
+                "label": "Graphic Design",
+                "value": "graphic design"
+              },
+              {
+                "label": "Leadership",
+                "value": "leadership"
+              },
+              {
+                "label": "UI/UX Design",
+                "value": "UI/UX design"
+              },
+              {
+                "label": "SQL",
+                "value": "sql"
+              },
+              {
+                "label": "Deep Learning",
+                "value": "deep learning"
+              },
+              {
+                "label": "HTML",
+                "value": "html"
+              },
+              {
+                "label": "CSS",
+                "value": "css"
+              },
+              {
+                "label": "JavaScript",
+                "value": "javascript"
+              },
+              {
+                "label": "API Design",
+                "value": "api design"
+              },
+              {
+                "label": "Java",
+                "value": "java"
+              },
+              {
+                "label": "Android Development",
+                "value": "android"
+              },
+              {
+                "label": "PHP",
+                "value": "php"
+              },
+              {
+                "label": "C#",
+                "value": "c#"
+              },
+              {
+                "label": "C++",
+                "value": "c++"
+              },
+              {
+                "label": "Probability",
+                "value": "probability"
+              },
+              {
+                "label": "Mathematics",
+                "value": "math"
+              },
+              {
+                "label": "Algorithms",
+                "value": "algorithms"
+              },
+              {
+                "label": "Blockchain",
+                "value": "blockchain"
+              },
+              {
+                "label": "Calculus",
+                "value": "calculus"
+              },
+              {
+                "label": "Linear Algebra",
+                "value": "linear algebra"
+              },
+              {
+                "label": "Finance",
+                "value": "finance"
+              },
+              {
+                "label": "Business",
+                "value": "business"
+              },
+              {
+                "label": "Nursing",
+                "value": "nursing"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Do you mind if the course is free, subscription based, or certificate-based?",
+    "paragraph": "Sometimes great course content is locked behind a pay-wall. We know how frustrating that can be.",
+    "paragraph-2": "If you're on a budget, select the option that is right for you.",
+    "formBlocks": [
+      {
+        "title": "Basic",
+        "inputs": [
+          {
+            "label": "Fee structure of course",
+            "name": "type",
+            "type": "select",
+            "text": "i.e. how much do you value quality vs. quantity?",
+            "options": [
+              {
+                "label": "Doesn't matter",
+                "value": "any"
+              },
+              {
+                "label": "Free",
+                "value": "free"
+              },
+              {
+                "label": "Subscription-based",
+                "value": "subscription"
+              },
+              {
+                "label": "Certificate-based (free course, pay only for the certificate)",
+                "value": "certificate"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "How many hours a week can you set aside to learn from the course?",
+    "paragraph": "The number of hours you set aside every week will greatly determine how fast you will be able to improve or learn a new skill.",
+    "paragraph-2": "Be realistic about how many hours you can study each week.",
+    "formBlocks": [
+      {
+        "inputs": [
+          {
+            "type": "select",
+            "label": "hours per week",
+            "name": "type",
+            "text": "i.e. hours you think you fully dedicate to the course.",
+            "options": [
+                {
+                    "label": "Doesn't matter",
+                    "name": "any"
+                },
+                {
+                    "label": "Less than 5 hours",
+                    "name": "5<hours"
+                },
+                {
+                    "label": "5 - 10 hours",
+                    "name": "5-10"
+                },
+                {
+                    "label": "10 - 20 hours",
+                    "name": "10-20"
+                },
+                {
+                  "label": "20 - 30 hours",
+                  "name": "20-30"
+                },
+                {
+                    "label": "30 hours",
+                    "name": "30>hours"
+                }
+            ]
+          },
+          {
+            "type": "select",
+            "label": "course duration",
+            "name": "type",
+            "text": "i.e. how long the course will take to complete.",
+            "options": [
+                {
+                    "label": "Doesn't matter",
+                    "name": "any"
+                },
+                {
+                    "label": "Less than a month",
+                    "name": "<1"
+                },
+                {
+                    "label": "1 - 3 month(s)",
+                    "name": "1-3"
+                },
+                {
+                    "label": "3 - 6 months",
+                    "name": "3-6"
+                },
+                {
+                  "label": "More than 6 months",
+                  "name": "6>"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

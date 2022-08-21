@@ -1,0 +1,22 @@
+{
+  "types": [
+    {
+      "label": "hobbyist",
+      "value": "I am a hobbyist",
+      "alt": "Hobbyist",
+      "html": "<i class=\"fab fa-leanpub\"></i>"
+    },
+    {
+      "label": "student",
+      "value": "I am a student",
+      "alt": "Student",
+      "html": "<i class=\"fas fa-user-graduate\"></i>"
+    },
+    {
+      "label": "working professional",
+      "value": "I am a working professional",
+      "alt": "Working Professional",
+      "html": "<i class=\"fas fa-user-tie\"></i>"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+    {
+       "img": "/img/avatar/user-profile-default.png",
+       "type": "avatar",
+       "title": "Jack London",
+       "dropdown": [
+         {
+          "title": "Profile",
+          "link": "/profile",
+          "divider": true
+         },
+        {
+          "title": "Sign out",
+          "link": "/login",
+          "divider": true
+        }
+       ]
+    }
+]

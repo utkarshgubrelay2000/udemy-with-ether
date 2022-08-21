@@ -1,0 +1,194 @@
+[
+   {
+      "title": "Browse",
+      "position": "static",
+      "megamenu": [
+         [
+            {
+               "title": "Computer Science",
+               "links": [
+                  {
+                     "title": "Python",
+                     "link": "/catalog?searchKey=Python"
+                  },
+                  {
+                     "title": "Blockchain",
+                     "link": "/catalog?searchKey=Blockchain"
+                  },
+                  {
+                     "title": "Data Structures",
+                     "link": "/catalog?searchKey=Data+Structures"
+                  },
+                  {
+                     "title": "Operating Systems",
+                     "link": "/catalog?searchKey=Operating+Systems"
+                  },
+                  {
+                     "title": "Artificial Intelligence",
+                     "link": "/catalog?searchKey=Artificial+Intelligence"
+                  },
+                  {
+                     "title": "Javascript",
+                     "link": "/catalog?searchKey=Javascript"
+                  },
+                  {
+                     "title": "See All",
+                     "link": "/catalog?subject=Computer+Science"
+                  }
+               ]
+            },
+            {
+               "title": "Business",
+               "links": [
+                  {
+                     "title": "Leadership",
+                     "link": "/catalog?searchKey=Leadership"
+                  },
+                  {
+                     "title": "Entrepreneurship",
+                     "link": "/catalog?searchKey=Entrepreneurship"
+                  },
+                  {
+                     "title": "Business Analytics",
+                     "link": "/catalog?searchKey=Business+Analytics"
+                  },
+                  {
+                     "title": "Financial Accounting",
+                     "link": "/catalog?searchKey=Financial+Accounting"
+                  },
+                  {
+                     "title": "See All",
+                     "link": "/catalog?searchKey=Business"
+                  }
+               ]
+            }
+         ],
+         [
+            {
+               "title": "Health & Medicine",
+               "links": [
+                  {
+                     "title": "Bioinformatics",
+                     "link": "/catalog?searchKey=Bioinformatics"
+                  },
+                  {
+                     "title": "Anatomy",
+                     "link": "/catalog?searchKey=Anatomy"
+                  },
+                  {
+                     "title": "Health & Wellness",
+                     "link": "/catalog?searchKey=Health+and+Wellness"
+                  },
+                  {
+                     "title": "Nutrition",
+                     "link": "/catalog?searchKey=Nutrition"
+                  },
+                  {
+                     "title": "See All",
+                     "link": "/catalog?subject=Health+and+Wellness"
+                  }
+               ]
+            }
+         ],
+         [
+            {
+               "title": "Design",
+               "links": [
+                  {
+                     "title": "Animation",
+                     "link": "/catalog?searchKey=Animation"
+                  },
+                  {
+                     "title": "Adobe Illustrator",
+                     "link": "/catalog?searchKey=Adobe+Illustrator"
+                  },
+                  {
+                     "title": "Graphic Design",
+                     "link": "/catalog?searchKey=Graphic+Design"
+                  },
+                  {
+                     "title": "UI/UX Design",
+                     "link": "/catalog?searchKey=UI+Design"
+                  },
+                  {
+                     "title": "See All",
+                     "link": "/catalog?subject=Graphic+Design"
+                  }
+               ]
+            }
+         ],
+         [
+            {
+               "title": "Art",
+               "links": [
+                  {
+                     "title": "Fine Art",
+                     "link": "/catalog?searchKey=Fine+Art"
+                  },
+                  {
+                     "title": "Illustration",
+                     "link": "/catalog?searchKey=Illustration"
+                  },
+                  {
+                     "title": "Arts and Crafts",
+                     "link": "/catalog?searchKey=Arts+and+Crafts"
+                  },
+                  {
+                     "title": "See All",
+                     "link": "/catalog?subject=Fine+Art"
+                  }
+               ]
+            }
+         ],
+         [
+            {
+               "links": [
+                  {
+                     "title": "See all courses",
+                     "link": "/catalog?all=true"
+                  }
+               ]
+            }
+         ]
+      ]
+   },
+   {
+      "title": "My Jobs",
+      "link": "/jobs",
+      "target": false
+   },
+   {
+      "title": "My Learning",
+      "link": "/course-guide",
+      "target": false,
+      "dropdown": [
+         {
+            "title": "Students",
+            "links": [
+               {
+                  "title": "Supplement your education",
+                  "link": "/course-guide"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Blog",
+      "link": "/blog"
+   },
+   {
+      "title": "Login",
+      "link": "/login",
+      "button": true,
+      "hideToLoggedUser": true,
+      "target": false
+   },
+   {
+      "title": "Join",
+      "link": "/signup",
+      "button": true,
+      "hideToLoggedUser": true,
+      "target": false
+   }
+]

@@ -1,0 +1,45 @@
+{
+  "interests": [
+    {
+      "landing-page-1": [
+        {
+          "title": "Business",
+          "label": "business",
+          "html": "<i class=\"fas fa-briefcase\"></i>"
+
+        },
+        {
+          "title": "Design",
+          "label": "design",
+          "html": "<i class=\"fas fa-pen-nib\"></i>"
+
+        }
+      ],
+      "landing-page-2": [
+        {
+          "title": "Data Science",
+          "label": "data science",
+          "html": "<i class=\"fas fa-database\"></i>"
+
+        },
+        {
+          "title": "Cyber Security",
+          "label": "cyber security",
+          "html": "<i class=\"fas fa-shield-alt\"></i>"
+        }
+      ],
+      "landing-page-3": [
+        {
+          "title": "Life Sciences",
+          "label": "life science",
+          "html": "<i class=\"fab fa-envira\"></i>"
+        },
+        {
+          "title": "Programming",
+          "label": "programming",
+          "html": "<i class=\"fas fa-code\"></i>"
+        }
+      ]
+    }
+  ]
+}

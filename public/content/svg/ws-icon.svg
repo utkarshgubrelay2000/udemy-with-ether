@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <filter id="Polygon_8" x="6.891" y="20.177" width="36.794" height="31.95" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-color="#4e66f8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_9" x="20.972" y="20.177" width="36.794" height="31.95" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-color="#4e66f8"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(304 878)">
+    <circle id="Ellipse_55" data-name="Ellipse 55" cx="32" cy="32" r="32" transform="translate(-304 -878)" fill="#4e66f8"/>
+    <g transform="matrix(1, 0, 0, 1, -304, -878)" filter="url(#Polygon_8)">
+      <path id="Polygon_8-2" data-name="Polygon 8" d="M14.738,3.7a2.5,2.5,0,0,1,4.318,0L31.6,25.19a2.5,2.5,0,0,1-2.159,3.76H4.354a2.5,2.5,0,0,1-2.159-3.76Z" transform="translate(42.19 50.13) rotate(180)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -304, -878)" filter="url(#Polygon_9)">
+      <path id="Polygon_9-2" data-name="Polygon 9" d="M14.738,3.7a2.5,2.5,0,0,1,4.318,0L31.6,25.19a2.5,2.5,0,0,1-2.159,3.76H4.354a2.5,2.5,0,0,1-2.159-3.76Z" transform="translate(56.27 50.13) rotate(180)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

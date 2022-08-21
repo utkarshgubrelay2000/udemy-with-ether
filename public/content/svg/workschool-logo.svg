@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138" height="31" viewBox="0 0 138 31">
+  <defs>
+    <filter id="Polygon_8" x="6" y="10" width="15" height="13.28" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-color="#4e66f8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_9" x="11" y="10" width="15" height="13.28" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-color="#4e66f8"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(431 768)">
+    <g id="Group_5" data-name="Group 5" transform="translate(-123 113)">
+      <circle id="Ellipse_55" data-name="Ellipse 55" cx="12" cy="12" r="12" transform="translate(-304 -878)" fill="#4e66f8"/>
+      <g transform="matrix(1, 0, 0, 1, -308, -881)" filter="url(#Polygon_8)">
+        <path id="Polygon_8-2" data-name="Polygon 8" d="M5.05,1.628a1.1,1.1,0,0,1,1.9,0l4.084,7a1.1,1.1,0,0,1-.95,1.654H1.916a1.1,1.1,0,0,1-.95-1.654Z" transform="translate(19.5 21.28) rotate(180)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -308, -881)" filter="url(#Polygon_9)">
+        <path id="Polygon_9-2" data-name="Polygon 9" d="M5.05,1.628a1.1,1.1,0,0,1,1.9,0l4.084,7a1.1,1.1,0,0,1-.95,1.654H1.916a1.1,1.1,0,0,1-.95-1.654Z" transform="translate(24.5 21.28) rotate(180)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 1)">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="138" height="31" transform="translate(-431 -769)" fill="none"/>
+      <text id="WORKSCHOOL" transform="translate(-399 -749)" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">WORKSCHOOL</tspan></text>
+    </g>
+  </g>
+</svg>

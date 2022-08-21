@@ -1,0 +1,71 @@
+{
+
+    "hero": {
+        "title": "Learn for the job",
+        "title2": "Learn on the job",
+        "subTitle": "Connecting courses to careers"
+    },
+    "swiperPoster": "photo-1501621965065-c6e1cf6b53e2-lowres.jpg",
+    "swiperImages": [
+        "workschool-banner-1.jpeg",
+        "workschool-banner-2.jpeg"
+    ],
+    "searchOptions": [{
+            "value": "small",
+            "label": "Courses"
+        },
+        {
+          "value": "small",
+          "label": "Jobs"
+      }
+    ],
+    "topBlocks": {
+        "title": "Join our community",
+        "subTitle": "ALL-IN-ONE CAREER NEEDS",
+        "blocks": [{
+                "title": "Course Discovery",
+                "content": "Stop wasting time browsing through platforms to find the right course. Easily compare all the top courses in one place and get personalized course recommendations by us",
+                "icon": "#find-1"
+            },
+            {
+                "title": "Build a Course-Pack",
+                "content": "Found the perfect recipe of courses to acquire a particular skill or knowledge? Support the WorkSchool community by building a curriculum of your own",
+                "icon": "#diploma-1"
+            },
+            {
+                "title": "Get a job",
+                "content": "Make your course history visible to employers so that they know you have the skills you need to succeed. Easily keep track of your goals and progress",
+                "icon": "#suitcase-1"
+            }
+        ]
+    },
+    "jumbotron": {
+        "title": "Ready to get started?",
+        "button": "Get started",
+        "link": "signup",
+        "img": "img/photo/photo-1497436072909-60f360e1d4b1.jpeg"
+    },
+    "forStudents": {
+        "title": "For Students",
+        "button": "Join For Free",
+        "link": "signup",
+        "images": [
+            { 
+                "img": "img/photo/for_student__1600x936.jpeg", 
+                "title": "For Students",
+                "content": "WorkSchool is built by students who know that traditional, in-person courses sometimes aren't the most effective way to learn. That's why we put together course-packs that mimic your curriculum so that you have other options. Don't waste time scouring the internet for the right courses - look to the experts and your peers who have already done the work for you.",
+                "button": "Join For Free",
+                "buttonLink": "/signup",
+                "offset": false
+            },
+            { 
+                "img": "img/photo/job-seekers.jpeg", 
+                "title": "For Job Seekers",
+                "content": "Sometimes, a job description isn't enough to tell you exactly what skills you need to succeed professionally. Our team is working on developing a job board that matches the required skills with the courses that can help you develop them, and help you ace that interview. We're taking the ambiguity out of the job hunt and giving you the tools for success.",
+                "button": "Join For Free",
+                "buttonLink": "/signup",
+                "offset": true
+            }
+        ]
+    }
+}

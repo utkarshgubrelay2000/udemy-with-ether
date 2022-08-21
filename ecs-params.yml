@@ -1,0 +1,21 @@
+version: 1
+task_definition:
+  task_execution_role: ecsTaskExecutionRole
+  ecs_network_mode: awsvpc
+  task_size:
+    mem_limit: 2GB
+    cpu_limit: 1024
+  services:
+    workschool-production-next:
+      essential: true
+      cpu_shares: 256
+      mem_limit: 0.5GB
+run_params:
+  network_configuration:
+    awsvpc_configuration:
+      subnets:
+        - "subnet-0746885c8a99f1e02"
+        - "subnet-0f5a1e667ae9bee0b"
+      security_groups:
+        - "sg-007b54c818b47be05"
+      assign_public_ip: ENABLED

@@ -1,0 +1,43 @@
+{
+    "title": "Featured Jobs",
+    "subTitle": "Browse recent listings, apply, get hired at your dream job!",
+    "button": "See all jobs",
+    "buttonLink": "/jobs",
+    "swiperItems": [
+        {
+            "title": "Testing Analyst",
+            "subtitle": "This role is responsible for development, maintenance and execution of both functional and automated testing plans for mission critical software releases and systems.",
+            "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQEBYFYdZiClXw/company-logo_100_100/0/1624900193160?e=1634774400&v=beta&t=Nhy9plLwn957qMLBU37RoHZHSwd7GOsxUM4h3VxLZHw",
+            "link": "https://www.linkedin.com/jobs/view/2646734885/?alternateChannel=search&eBP=CwEAAAF6wNsw1z_zThTuenbd1vh5D7Y5PTBVnkv1JE5IKMRm9p4y_0B6KkmOouIp_L2pKMz3PAM7hOQXHT8WmJ1s6R-4F7qEbYwTGJ8isdv0WoE2qjXYmzdAnlWeLzp1mmTf_jp8dA76oelHNbG5n7k80B5dz4LRo3dZKJggQtgfz1reYLl7DnZV0Y97aXJD5r6SSEUiEObJbOCYZXmqorkjkbqeCbhurKd9IxizLotB0_LdR75uaFcGUZrXRv_BBvltrYvVauU1UnZ0Msxa98_S-ugr4bezaLud4Yeo2AqqTTUPJixhYV0q6GOpKNG34DcRHQRbaMt5NH_argkJPskibyG9wN-6QdOUP0R2R7xi2cniopcBT1UVO4lksFr5&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=Rw5YJK1mBI97yf8YdamUBA%3D%3D&trackingId=B2kXX61AAikQHIyv8vmmzQ%3D%3D&trk=flagship3_search_srp_jobs",
+            "backgroundColor": "#232f3e"
+        },
+        {
+            "title": "Senior Software Engineer, Developer Tools",
+            "subtitle": "At Teachers Pay Teachers (TpT), we're unlocking the power of educator-created content. TpT gives educators access to a trusted, one-of-a-kind community. ",
+            "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQFlTHnkj8j-Jg/company-logo_100_100/0/1539029235135?e=1634774400&v=beta&t=SeEk8MKdBFCjQlOUfNAEy9tIBi0yZwBkMQYHO0jt0aU",
+            "link": "https://www.linkedin.com/jobs/view/2646580274/?eBP=CwEAAAF6wNsw1-qa4c0rpzjmF4kX191f7NTltFA0qgS32sHrUUGltNGa0HUWLv-p55wren_bYsDhoGByM__7alY-hDfYy4sxdnKRKYNfepXA6U3kQKMGL4BzyWu9e3XipJ2W01fWEVFz6nWQEr3q079jUhp4YE60WhGc0vsSHQ6ercse1CBPtwX-bBp6ju4AV3o2bPHyfb11xFXeUeSj7QdLKOpzo98OacN2Svz-rgJ_k7Ph0KBtlw3phOKaIMi8Uu5fy9dKJ3_HNrEAbL1ocYVE-0vKAGWGpMCneIGTK_G6u4kaSpUStgiaUY_AtORn67DPflIGhZ08Pn0I8gOl0wT8Nyy8vuXcPQaWI9Bx6kPXhElS1wq9ADddgP223g&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=Rw5YJK1mBI97yf8YdamUBA%3D%3D&trackingId=HAJfjk6EO9VPx3MazqNxeg%3D%3D&trk=flagship3_search_srp_jobs",
+            "backgroundColor": "#1ED760"
+        },
+        {
+            "title": "Multimedia Specialist",
+            "subtitle": "19 Ideas is a strategic marketing agency who brings partnership to every project. Established in 2011 and located in the heart of Buffalo, NY, we boast a spread of",
+            "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHtWKJmmLC-vQ/company-logo_100_100/0/1620851530478?e=1634774400&v=beta&t=5jxkE9V8VFJrAt8myJh0yvKnV-vr7uw02kg81S8Ywyk",
+            "link": "https://www.linkedin.com/jobs/view/2646744133/?eBP=JOB_SEARCH_ORGANIC&refId=K5bAWRd7%2BdaDKUJxqpiEVA%3D%3D&trackingId=53X1WSAg2KK7E6Gv8QIDhw%3D%3D&trk=flagship3_search_srp_jobs",
+            "backgroundColor": "#E50914"
+        },
+        {
+            "title": "Golang Developer",
+            "subtitle": "Collabera Inc. is looking for a 2+ years working with Golang.",
+            "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQG-lDaaTlZa1A/company-logo_100_100/0/1625228656341?e=1634774400&v=beta&t=m8pGkK4dqqU_LMma11R0skSAOZageDRKzVcaAj5o8yQ",
+            "link": "https://www.linkedin.com/jobs/view/2654571929/?eBP=CwEAAAF6wNsw10HNldlDx6kOd_-mcGe8-8aYJPZDcEybL8r4Xo50C6FT4YEF6-0YIyVLRDBoJHhZtviBs9slHvvRj5AvWWcqIbK0yjs0n4YnTFM3oV8R02euCyTkTElj910kpmLfLkMTSHbBB_26frfzsKhwVU69GKykEdKq_GR03-bGlaiEMZ1boIaNkaHYp6SzhJ3hHGgg64evrYPplZrvMYTHtHSwEMP5bhkziDcTVy0ajNEQdGxle6B9w69fDjre89ozVrSXifnRS7PQJyCxFMYYGATlRTrR_ckTsnigVRDVaGYrEYFX-r6D1eW7irMypEgqzdWnrybtZWX0QG2TspwkLRTiGcj0fuDbcHOKYZdOAczSeYk5_nrLsKIY6VQ&recommendedFlavor=SCHOOL_RECRUIT&refId=Rw5YJK1mBI97yf8YdamUBA%3D%3D&trackingId=4AriXcIiNOMu4nzPdJxj8Q%3D%3D&trk=flagship3_search_srp_jobs",
+            "backgroundColor": "#000000"
+        },
+        {
+            "title": "Growth Marketer",
+            "subtitle": "Invisit is a VC-backed technology startup that has created an innovative software to protect e-commerce companies in a constantly changing digital landscape. Our software monitors websites for marketing bugs, compliance problems, and other issues that could financially impact merchants.",
+            "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQGqrfIadx7DMA/company-logo_100_100/0/1623769301292?e=1634774400&v=beta&t=PAAclb2ZVu2cOEWPOAw9QVXnd_yIaIR5XO7UVZ_lesk",
+            "link": "https://www.linkedin.com/jobs/view/2650591334/?eBP=JOB_SEARCH_ORGANIC&refId=K5bAWRd7%2BdaDKUJxqpiEVA%3D%3D&trackingId=mdjuPBgOgZrk5m8i9eSD3w%3D%3D&trk=flagship3_search_srp_jobs",
+            "backgroundColor": "rgba(0,0,0,0.8)"
+        }
+    ]
+}

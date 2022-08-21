@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  workschool-web-service:
+    build:
+      context: .
+    image: 513978991782.dkr.ecr.us-east-1.amazonaws.com/workschool-web-service:latest
+    ports:
+      - "8080:8080"
+    entrypoint: >-
+        sh -c -x "npm run start"

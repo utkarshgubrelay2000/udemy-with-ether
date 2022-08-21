@@ -1,0 +1,412 @@
+// this is the place for your components / CSS
+
+/* Loading Cards CSS */
+.avatar-placeholder {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+}
+
+.text-placeholder {
+  height: 8px;
+  margin-bottom: 5px;
+}
+
+.placeholder {
+  display: inline-block;
+  background-color: #b0c0c7;
+  animation-name: shine;
+  animation-duration: 2.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shine {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+$blue: #007bff !default;
+.menucontainer {
+  margin: 10px;
+}
+
+// .container .demo {
+//   margin-bottom: 100px;
+// }
+
+.menu-container:before,
+.menu-container:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.menu-container.below {
+  position: relative;
+}
+
+.menu-container.right {
+  position: relative;
+}
+
+.menu-container.below .menu {
+  width: 100%;
+}
+
+.menu-container.below .menu .menu-item {
+  float: left;
+  border: none;
+}
+
+.menu-container.below .sub-menu {
+  position: absolute;
+  top: 30px;
+  border: 1px #eee solid;
+  border-top: none;
+}
+
+.menu {
+  border-right: 1px #eee solid;
+}
+.menu,
+.sub-menu {
+  float: left;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu .menu-item,
+.sub-menu .sub-menu-item {
+  width: 190px;
+  line-height: 30px;
+  padding: 0 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.menu .menu-item:first-child {
+  border-top: none;
+}
+
+.menu .menu-item.active {
+  color: $blue;
+  border-right: 1px #fff solid;
+  margin-right: -1px;
+}
+
+.sub-menu {
+  border-left: none;
+  min-height: 278px;
+}
+
+.sub-menu .sub-menu-item {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.sub-menu .sub-menu-item:hover {
+  color: $blue;
+}
+
+// styling for newsletter 
+.news {
+  background-color: #4E66F8;
+  height: 650px;
+  padding-top: 5%;
+  margin-bottom: 10%;
+}
+.title-heading{
+  font-size: 70px; 
+  font-Family: aria; 
+  font-Weight: 200;
+  margin-Top: 15%; 
+  line-Height: 103px; 
+  color: white;
+}
+.title-ptag{
+  font-Size: 22px;
+  font-Family: arial;
+  font-Weight: 400;
+  font-style: normal; 
+  padding-Top: 20px;
+  line-Height: 30px;
+  color: white;
+}
+.title-h3{
+  font-Size: 35px;
+  color: #4E66F8;
+  font-Weight: 350; 
+  margin-Bottom: 5%; 
+  font-family: sans-serif;
+}
+.col-div{
+  display: flex; 
+  align-Items: flex-start; 
+  margin-Left: 5%;
+}
+.col-div2{
+  display: flex;
+  align-Items: flex-start;
+  margin-Left: 5%;
+}
+.col-icon{
+  margin-Top: 5px;
+  margin-Left: 12px;
+  font-Size: 1.1em;
+}
+.col-icon p {
+  margin-top: 10px;
+}
+.button-terms{
+  display: flex;
+  justify-content: space-between;
+}
+.email-input {
+  width: 160%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  margin-right: 12px;
+  color: black !important;
+  margin-top: 11%;
+}
+.email-input:focus{
+ outline: none;
+ border: none;
+}
+.email-input::-webkit-input-placeholder{
+color: white;
+}
+.email-input::-moz-placeholder{
+  color: white;
+}
+.email-input::-ms-input-placeholder{
+  color: white;
+}
+.email-input::placeholder{
+  color: white;
+}
+.terms-ptag{
+  font-Size: 13px;
+  margin-Top: 9px;
+  color: white;
+}
+.imagenews {
+  background-image: url("/content/img/photo/newsletterbanner3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  width: 350x;
+}
+.newsletter-btn {
+  background-color: #E84791;
+  color: white;
+  padding: 20px 30px;
+  border-style: none;
+  font-weight: 500;
+  size: 16px;
+  font-family: Arial;
+  border-radius: 5px;
+  margin-left: -20%;
+  margin-right: 10%;
+}
+.newsletter-card {
+  transition: 0.3s;
+  margin-bottom: 25% !important;
+  margin-top: 20%;
+}
+.newsletter-card:hover {
+  box-shadow: 0 4px 4px 0;
+}
+.newsletter-card2 {
+  transition: 0.3s;
+  margin-top: 5% !important;
+}
+.newsletter-card2:hover {
+  box-shadow: 0 4px 4px 0;
+}
+
+// styling the newsletter article
+.slug-topic {
+  margin-left: 25%;
+  margin-right: 20%;
+  }
+  .topic-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // styling for knowledge-base-topic
+.text-content{
+  margin-top: 10%;
+}
+.subname-p {
+  font: 17px;
+  margin-left: 35%;
+  color: rgb(10, 9, 9);
+}
+.slug-img {
+  width: 120%;
+  height: 100%;
+  margin-bottom: 5%;
+  margin-left: -10%;
+}
+
+
+// Media querries
+@media (max-width: 767px){
+  .imagenews {
+    background-image: url("/content/img/photo/newsletterbanner3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 210%;
+    margin-top: 360%;
+    margin-left: 10%;
+  }
+  .news {
+    background-color: #4E66F8;
+    height: 1000px;
+    padding-top: 5%;
+    margin-bottom: 30%;
+  }
+  .title-heading{
+    font-size: 60px; 
+    font-Family: aria; 
+    font-Weight: 400;
+    margin-Top: 15%; 
+    line-Height: 62px; 
+    color: white;
+    margin-bottom: 10%;
+    margin-left: -170px;
+  }
+  .title-ptag{
+    font-Size: 18px;
+    font-Family: arial;
+    font-Weight: 400;
+    font-style: normal; 
+    padding-Top: 20px;
+    line-Height: 24px;
+    color: white;
+    margin-left: -170px
+  }
+  .email-input {
+    width: 1000%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-right: 12px;
+    color: black !important;
+    margin-top: 17%;
+    margin-left: -170px;
+  }
+  .email-input:focus{
+    outline: none;
+    border: none;
+   }
+  .email-input::-webkit-input-placeholder{
+    color: white;
+    }
+    .email-input::-moz-placeholder{
+      color: white;
+    }
+    .email-input::-ms-input-placeholder{
+      color: white;
+    }
+    .email-input::placeholder{
+      color: white;
+    }
+  .terms-ptag{
+    font-Size: 15px;
+    margin-Top: -95%;
+    margin-left: -170px;
+    line-Height: 24px;
+    color: white;
+  }
+  .button-terms{
+    margin-top: 10%;
+  }
+  .newsletter-btn {
+    background-color: #E84791;
+    color: white;
+    padding: 15px 35px;
+    border-style: none;
+    font-weight: 500;
+    size: 16px;
+    font-family: Arial;
+    border-radius: 5px;
+    margin-left: -170%;
+    margin-top: 125%;
+    margin-bottom: 10%;
+  }
+  .title-h3{
+    font-Size: 15px;
+    color: #4E66F8;
+    font-Weight: 200; 
+    margin-Bottom: 10%; 
+    margin-top: 7%;
+    margin-Left: 5%;
+    font-family: sans-serif;
+  }
+  .col-div{
+    display: flex; 
+    align-Items: flex-start; 
+  }
+  .col-icon{
+    margin-Top: 5px;
+    margin-Left: 12px;
+    font-Size: 0.9em;
+  }
+  .newsletter-card {
+    transition: 0.3s;
+    margin-bottom: 1% !important;
+  }
+  .newsletter-card:hover {
+    box-shadow: 0 4px 4px 0;
+  }
+  .newsletter-card2 {
+    transition: 0.3s;
+    margin-top: 5% !important;
+  }
+  .newsletter-card2:hover {
+    box-shadow: 0 4px 4px 0;
+  }
+  .slug-topic {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+    .topic-section {
+      display: flex;
+      justify-content: space-between;
+    }
+    .slug-topic {
+      margin-left: 0;
+      margin-right: 0;
+      }
+      .subname-p {
+        font: 17px;
+        margin-left: 0;
+        color: rgb(10, 9, 9);
+      }
+}

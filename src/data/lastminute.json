@@ -1,0 +1,60 @@
+[ 
+  {
+    "title": "Our Courses",
+    "subtitle": "View the latest expert curated courses.",
+    "button": "See all courses",
+    "buttonLink" : "catalog/?all=true"
+
+  },
+  {
+      "title": "Featured Courses",
+      "subtitle": "Wondering what courses to take on Workschool? Our team has highlighted some incredible courses you can get started with",
+      "button": "See all courses",
+      "buttonLink" : "catalog/?all=true"
+
+    },
+    {
+      "title": "Popular Courses",
+      "subtitle": "Level up your skills with these free poplular courses in our catalog",
+      "button": "See all courses",
+      "buttonLink" : "catalog/?all=true"
+    
+  },
+  {
+      "title": "Computer Science Courses",
+      "subtitle": "Begin your programming career with these exceptional courses from Treehouse",
+      "button": "See all Treehouse courses",
+      "buttonLink" : "catalog/?provider=treehouse"            
+  },
+  {
+    "title": "Data Science Courses",
+    "subtitle": "Learn data skills online, build the skills you need for the future of work",
+    "button": "See all Datacamp courses",
+    "buttonLink" : "catalog/?provider=datacamp"            
+    },
+    {
+            
+      "title": "Arts & Crafts Courses",
+      "subtitle": "Looking for some new arts & crafts projects, check out these courses",
+      "button": "See all arts & crafts courses",
+      "buttonLink" : "catalog/?all=false&searchKey=arts+%26+crafts"            
+      
+    },
+    {
+            
+      "title": "Certificate-Based courses",
+      "subtitle": "Looking for some new certificate-based courses to build your skills, check out these courses",
+      "button": "See all certificate-based courses",
+      "buttonLink" : "catalog/?all=true"            
+      
+    },
+    {
+            
+      "title": "Subscription-Based courses",
+      "subtitle": "Looking for some new subscription-based courses to develop your skills, check out these courses",
+      "button": "See all subscription-based courses",
+      "buttonLink" : "catalog/?all=true"            
+      
+    }
+    
+]

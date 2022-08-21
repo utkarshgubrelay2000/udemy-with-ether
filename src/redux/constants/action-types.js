@@ -1,0 +1,4 @@
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const SET_CURRENT_IP = "SET_CURRENT_IP";
+export const REMOVE_CURRENT_USER = "REMOVE_CURRENT_USER";
+export const SET_USER_NAME = "SET_USER_NAME";

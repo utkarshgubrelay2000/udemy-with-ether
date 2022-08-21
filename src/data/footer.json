@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Stay connected",
+    "content": "Follow us on social media!",
+    "social": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/workschool_co"
+      },
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/company/workschool/"
+      },
+      {
+        "title": "facebook",
+        "link": "https://www.facebook.com/workschool.co/"
+      },
+      {
+        "title": "instagram",
+        "link": "https://www.instagram.com/workschool.co/"
+      },
+      {
+        "title": "reddit",
+        "link": "https://www.reddit.com/user/WorkSchool_1"
+      },
+      {
+        "title": "youtube",
+        "link": "https://www.youtube.com/channel/UCP7YvFsDn8-tBoWi7qAaUNw"
+      }
+    ],
+    "lg": "4"
+  },
+  {
+    "title": "Get to know us",
+    "links": [
+      {
+        "title": "About Us",
+        "link": "/"
+      }
+    ],
+    "lg": "2",
+    "md": "6"
+  },
+  {
+    "title": "Resources",
+    "links": [
+      {
+        "title": "Newsletter",
+        "link": "/newsletter"
+      },
+      {
+        "title": "Get the App",
+        "link": "https://app.workschool.co/"
+      }
+    ],
+    "lg": "2",
+    "md": "6"
+  },
+  {
+    "title": "Browse",
+    "links": [
+      {
+        "title": "Courses",
+        "link": "/catalog/?all=true"
+      },
+      {
+        "title": "Jobs",
+        "link": "/jobs"
+      }
+    ],
+    "lg": "2",
+    "md": "6"
+  }
+]
