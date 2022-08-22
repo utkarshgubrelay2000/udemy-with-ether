@@ -24,7 +24,7 @@ import API_URL from "../utils/API_URL";
 import axios from "axios";
 import Axios from "axios";
 import { web3Helper } from "../services/webHelper";
-import Migration from "../contracts/Migrations.json";
+import Migration from "../contracts/Faucet.json";
 export async function getStaticProps() {
   return {
     props: {
@@ -95,11 +95,14 @@ const [web3, setWeb3] = useState({});
   },[0])
   const getEth = async () => {
    try {
+    console.log("getEth",Migration,Migration.networks[Object.keys(Migration.networks)[0]].address);
      let {web3,provider} = await web3Helper()
      setWeb3(web3);
      setProvider(provider);
      let accounts = await web3.eth.getAccounts();
-     console.log(accounts);
+     //deploy contract
+      let contract = new web3.eth.Contract(Migration.abi,Migration.networks[Object.keys(Migration.networks)[0]].address);
+      console.log(contract);
     } catch (error) {
      console.log(error);
     }
